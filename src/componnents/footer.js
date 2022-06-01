@@ -3,7 +3,7 @@ import '../styles/Footer.css'
 
 function Footer() {
 	const [inputValue, setInputValue] = useState('Entré vote mail ici')
-    // const isInputError = inputValue.includes('@')
+
 	return (
 		<footer className='lmj-footer'>
 			<div className='lmj-footer-elem'>

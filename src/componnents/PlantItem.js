@@ -3,9 +3,10 @@ import '../styles/PlantItem.css';
 
 
 
-function PlantItem ({name, cover, id, light, water}) {
+function PlantItem ({name, cover, price, light, water, category}) {
     return 	(					
-        <li key={id} className='lmj-plant-item' onClick={() => handleClick(light,water)}>
+        <li className='lmj-plant-item' onClick={() => handleClick}>
+            <span className='lmj-plant-item-price'>{price}€</span>
             <img src={ cover } alt={ name } className='lmj-plant-item-cover'></img>
             {name}
             <div>
