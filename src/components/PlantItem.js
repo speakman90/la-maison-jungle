@@ -9,7 +9,7 @@ function PlantItem({name, cover, id, light, water}) {
             {name}
             <div>
                 <CareScale careType='light' scaleValue={light} />
-                <CareScale careType='water' scaleValue={water} />
+                <CareScale careType='water' scaleValue={water} />   
             </div>
         </li>
     )
